@@ -1,0 +1,63 @@
+/*resetting browser css*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@font-face {
+    font-family: 'Indie Flower';
+    src:url("img/indieFlower-Regular.ttf")
+}
+body{
+    font-family:"Indie Flower",'Brush Script MT','cursive';
+    background: #CEB774;
+    color: #080427;
+}
+/*styling for navbar id*/
+#navbar{
+    background:#B7AF15;
+    color:#911410;
+    overflow:auto;
+}
+/*styling for anchors in navbar id*/
+#navbar a{
+    color:#911410;
+}
+/*navbar id heading styling*/
+#navbar h1{
+    padding-top:1.25em;
+    float:left;
+}
+/*styling for unordered lists in navbar id*/
+#navbar ul {
+    float:right;
+    list-style: none;
+}
+/*styling for list items in unordered lists in navbar id*/
+#navbar ul li{
+    float:left;
+}
+/*styling for anchor links in list items in unordered lists in navbar id*/
+#navbar ul li a{
+    display:block;
+    padding:1.25em;
+    text-align:center;
+    border-radius: 10%;
+}
+/*styling for anchor links in hover in list items in unordered lists in navbar id and the current class*/
+#navbar ul li a:hover{
+    background:#CEB774;
+    color:#380404;
+}
+#prof_intro{
+    display: block;
+}
+#prof_intro #pic_me{
+    float: left;
+    display: inline-block;
+    border-radius: 100%;
+}
+#prof_intro #web_dev_text{
+    float: right;
+    display: inline-block;
+}
