@@ -3,6 +3,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    float: inherit;
 }
 @font-face {
     font-family: 'Indie Flower';
@@ -12,6 +13,8 @@ body{
     font-family:"Indie Flower",'Brush Script MT','cursive';
     background: #CEB774;
     color: #080427;
+    font-size: 24px;
+    margin: 5px;
 }
 /*styling for navbar id*/
 #navbar{
@@ -22,11 +25,7 @@ body{
 /*styling for anchors in navbar id*/
 #navbar a{
     color:#911410;
-}
-/*navbar id heading styling*/
-#navbar h1{
-    padding-top:1.25em;
-    float:left;
+    font-size: 20px;
 }
 /*styling for unordered lists in navbar id*/
 #navbar ul {
@@ -50,14 +49,45 @@ body{
     color:#380404;
 }
 #prof_intro{
-    display: block;
+    display: flex;
 }
-#prof_intro #pic_me{
-    float: left;
-    display: inline-block;
+#pic_me{
+    flex: 1;
     border-radius: 100%;
+    margin:6px;
+
 }
-#prof_intro #web_dev_text{
-    float: right;
-    display: inline-block;
+#web_dev_text{
+    flex: 2;
+    text-align: justify;
+    font-size: 24px;
+}
+#past_exp{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+#education {
+    flex:1;
+}
+#work_exp{
+    flex: 2;
+}
+#guests{
+    flex: 3;
+}
+#self-education{
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+#training{
+    flex: 1;
+}
+#e-courses{
+    flex: 2;
+}
+#e-courses ul{
+    list-style: none;
 }
