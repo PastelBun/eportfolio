@@ -5,6 +5,7 @@
     box-sizing:border-box;
     float: inherit;
 }
+/*add external source just in case in case*/
 @font-face {
     font-family: 'Indie Flower';
     src:url("img/indieFlower-Regular.ttf")
