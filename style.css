@@ -21,6 +21,7 @@ body{
     background:#B7AF15;
     color:#911410;
     overflow:auto;
+    position: sticky;
 }
 /*styling for anchors in navbar id*/
 #navbar a{
