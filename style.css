@@ -16,6 +16,7 @@ body{
     color: #080427;
     font-size: 24px;
     margin: 5px;
+    text-align: center;
 }
 /*styling for navbar id*/
 #navbar{
@@ -23,6 +24,7 @@ body{
     color:#911410;
     overflow:auto;
     position: sticky;
+    text-align: left;
 }
 /*styling for anchors in navbar id*/
 #navbar a{
@@ -57,26 +59,36 @@ body{
     flex: 1;
     border-radius: 100%;
     margin:6px;
-
+    display: block;
+    max-width:500px;
+    max-height:500px;
+    width: auto;
+    height: auto;
 }
 #web_dev_text{
     flex: 2;
     text-align: justify;
     font-size: 24px;
 }
-#past_exp{
+/*#past_exp{
     display: flex;
     align-content: center;
     justify-content: space-around;
-}
+}*/
 #education {
-    flex:1;
+    /* flex:1;*/
+    grid-column: 1/span 1;
+    grid-row: 1/span 2;
 }
 #work_exp{
-    flex: 2;
+    /*flex: 2;*/
+    grid-column: 2/span 1;
+    grid-row: 1/span 3;
 }
 #guests{
-    flex: 3;
+    /*flex: 3;*/
+    grid-column: 3/span 1;
+    grid-row: 1/span 1;
 }
 #self-education{
     text-align: center;
@@ -84,14 +96,29 @@ body{
     align-content: center;
     justify-content: space-around;
 }
-#training{
-    flex: 1;
-}
+
 #e-courses{
-    flex: 2;
+    grid-column: 1/span 1;
+    grid-row: 1/span 1;
 }
 #e-courses ul{
     list-style: none;
+}
+#qual{
+    grid-column: 2/span 1;
+    grid-row: 1/span 1;
+}
+#past_prj{
+    display: block;
+}
+#hobbies{
+    grid-column: 1/span 1;
+    grid-row: 1/span 1;
+}
+#self_intro{
+    grid-column: 2/span 1;
+    grid-row: 1/span 1;
+    text-align: center;
 }
 #to_top {
   display: none; /* Hidden by default */
@@ -114,6 +141,10 @@ body{
 }
 .emp{
     color: #911410;
-    font-weight: 500;
-    font-size: 1.2rem;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.grid-container{
+    display: grid;
+    grid-column-gap:10px ;
 }
