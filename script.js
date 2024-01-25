@@ -3,9 +3,9 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
+    to_top_btn.style.display = "block";
   } else {
-    mybutton.style.display = "none";
+    to_top_btn.style.display = "none";
   }
 }
 
