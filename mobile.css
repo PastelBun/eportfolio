@@ -1,0 +1,70 @@
+*{
+    font-size: 4vw;
+    gap:0vw;
+    text-align: center;
+    white-space: initial;
+    max-width: 100vw;
+}
+br{
+    display: none;
+}
+#pic_me{
+    display: none;
+}
+h1,h2,h3{
+    color: black;
+}
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+#logo{
+    text-align: left;
+}
+#navbar_links{
+    display: none;
+}
+
+#navbar_links li a{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+#navbar a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20vw;
+    height: 10vh;
+}
+
+#navbar a:hover {
+    background-color: grey;
+    color: black;
+}
+
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
+#skill_1 img, #skill_2 img, #skill_3 img, #skill_4 img, #skill_5 img {
+    width: 100vw;
+}
+#prj1, #prj2, #prj3,
+#prj1 img, #prj2 img, #prj3 img{
+    width: 100vw;
+}
+.grid-container{
+    display: contents;
+    align-content: center;
+    object-fit: contain;
+}
+#hobbies h3{
+    color: white;
+}

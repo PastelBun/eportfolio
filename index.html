@@ -10,6 +10,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <link rel="icon" type="image/x-icon" href="img/Logo_Sam_small.png">
 	<link rel="stylesheet" href="style.css" type="text/css">
 	<link rel="stylesheet" media="screen and (max-width:500px)" href="mobile.css" type="text/css">
 	<script src="https://kit.fontawesome.com/536e24cca5.js" crossorigin="anonymous"></script>
@@ -19,7 +20,7 @@
 		    <nav id="navbar">
 		        <div class="container">
                   <a href="#prof_intro"><img id='logo' src="img/logo_sam_small.png" alt="logo"></a>
-		            <ul>
+		            <ul id="navbar_links">
 		                <li>
 		                    <a href="#prof_intro">Professional introduction</a>
 		                </li>
@@ -34,6 +35,9 @@
 		                </li>
 		            </ul>
 		        </div>
+              <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
+                <i class="fa fa-bars"></i>
+              </a>
 		    </nav>
   </header>
     <div id="prof_intro">
@@ -222,19 +226,20 @@
         </ul>
       </div>
   </div>
+  <br>
     <footer>
       <p>Samantha Soosaar &copy;2024, All rights are protected</p>
       <div id="icons">
       <a href="https://www.facebook.com/profile.php?id=100005744265418">
-        <i class="fa-brands fa-messenger"></i>
+        <i class="fa-brands fa-facebook"></i>
       </a>
-        <!--add mail address with some obfuscation-->
-      <a href="">
+      <a href="mailto:samanthasoosaar@gmail.com">
         <i class="fa-solid fa-inbox"></i>
       </a>
       </div>
     </footer>
     <button onclick="topFunction()" id='to_top'><i class="fa-solid fa-up"></i>Back to the top</button>
     <script src="script.js"></script>
+    <script src="hamburger.js"></script>
 </body>
 </html>
