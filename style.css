@@ -96,8 +96,8 @@ body{
 #e-courses{
     grid-column: 1/span 1;
     grid-row: 1/span 1;
-    max-width: 33%;
-    max-height: 50%;
+    width: 40rem;
+    height: 40rem;
 }
 #e-courses ul{
     list-style: none;
@@ -109,35 +109,54 @@ body{
 #skill_1{
     grid-column: 2/span 1;
     grid-row: 1/span 1;
-    max-width: 33%;
-    max-height: 50%;
+    width: 40rem;
+    height: 40rem;
 }
 #skill_2{
     grid-column: 3/span 1;
     grid-row: 1/span 1;
-    max-width: 33%;
-    max-height: 50%;
+    width: 40rem;
+    height: 40rem;
 }
 #skill_3{
     grid-column: 1/span 1;
     grid-row: 2/span 1;
-    max-width: 33%;
-    max-height: 50%;
+    width: 40rem;
+    height: 40rem;
 }
 #skill_4{
     grid-column: 2/span 1;
     grid-row: 2/span 1;
-    max-width: 33%;
-    max-height: 50%;
+    width: 40rem;
+    height: 40rem;
 }
 #skill_5{
     grid-column: 3/span 1;
     grid-row: 2/span 1;
-    max-width: 33%;
-    max-height: 50%;
+    width: 40rem;
+    height: 40rem;
 }
-#past_prj{
-    display: block;
+#prj1{
+    grid-column: 1/span 1;
+    grid-row: 1/span 1;
+    width: 40rem;
+    height: 40rem;
+}
+#prj2{
+    grid-column: 2/span 1;
+    grid-row: 1/span 1;
+    width: 40rem;
+    height: 40rem;
+}
+#prj3{
+    grid-column: 3/span 1;
+    grid-row: 1/span 1;
+    width: 40rem;
+    height: 40rem;
+}
+#prj1 img,#prj2 img,#prj3 img{
+    max-height: 40rem;
+    max-width: 40rem;
 }
 #hobbies{
     grid-column: 1/span 1;
@@ -174,5 +193,5 @@ body{
 }
 .grid-container{
     display: grid;
-    grid-column-gap:10px ;
+    grid-column-gap:5px ;
 }
