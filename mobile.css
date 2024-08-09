@@ -4,13 +4,22 @@
     text-align: center;
     white-space: initial;
     max-width: 100vw;
+    border: none;
 }
 br{
     display: none;
 }
-#pic_me{
+#logo{
     display: none;
 }
+#logo_large{
+    display: inline;
+    max-width:40vw;
+}
+#prof_intro{
+    display: block;
+}
+
 h1,h2,h3{
     color: black;
 }
@@ -55,16 +64,30 @@ h1,h2,h3{
 }
 #skill_1 img, #skill_2 img, #skill_3 img, #skill_4 img, #skill_5 img {
     width: 100vw;
+    max-height: 100%;
+    border: none;
 }
 #prj1, #prj2, #prj3,
 #prj1 img, #prj2 img, #prj3 img{
     width: 100vw;
+    max-height: 100%;
+    border: none;
 }
 .grid-container{
     display: contents;
     align-content: center;
     object-fit: contain;
 }
+#hobbies{
+    width:100vw;
+    max-height: 100%;
+    border: none;
+}
 #hobbies h3{
     color: white;
-}
+};
+#education, #guests, #work_exp{
+    max-height: 100%;
+    width: 100%;
+    border: none;
+};
