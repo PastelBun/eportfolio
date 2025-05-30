@@ -23,9 +23,12 @@ br{
 h1,h2,h3{
     color: black;
 }
+h1{
+    font-size: 1.5em;
+}
 #navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #c6c997;
     position: relative;
 }
 #logo{
@@ -44,7 +47,7 @@ h1,h2,h3{
 }
 
 #navbar a.icon {
-    background: black;
+    background: #c6c997;
     display: block;
     position: absolute;
     right: 0;
@@ -54,13 +57,13 @@ h1,h2,h3{
 }
 
 #navbar a:hover {
-    background-color: grey;
-    color: black;
+    background-color:  #af4b07;
+    color: #eaf69b;
 }
 
 .active {
-    background-color: #04AA6D;
-    color: white;
+    background-color:  #af4b07;
+    color: #eaf69b;
 }
 #skill_1 img, #skill_2 img, #skill_3 img, #skill_4 img, #skill_5 img {
     width: 100vw;
@@ -72,6 +75,13 @@ h1,h2,h3{
     width: 100vw;
     max-height: 100%;
     border: none;
+    height: 100%;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+#prj1 #prj2, #prj3 {
+    padding-top: 6vh;
+    padding-bottom: 6vh;
 }
 .grid-container{
     display: contents;
@@ -80,14 +90,16 @@ h1,h2,h3{
 }
 #hobbies{
     width:100vw;
+    height: 100%;
     max-height: 100%;
     border: none;
 }
 #hobbies h3{
-    color: white;
-};
-#education, #guests, #work_exp{
+    color: #af4b07;
+}
+#education, #guests, #work_exp #past_prj{
     max-height: 100%;
     width: 100%;
     border: none;
-};
+    height:100%
+}

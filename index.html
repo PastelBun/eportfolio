@@ -62,8 +62,34 @@
         </p>
       </div>
     </div>
-    <div class='horline'></div>
-    <div class='grid-container'>
+  <!--choose and add past projects-->
+  <div id="past_prj" class="grid-container">
+    <div id="prj-headline">
+      <h2>Some of my past projects!</h2>
+    </div>
+    <div id='prj1'>
+      <a href="https://github.com/PastelBun/Project_Sam">
+        <h3>Clicker Game</h3>
+        <img src="img/game_page.png" alt="screenshot of a clicker game">
+      </a>
+      <a href="https://carlosvs23.ikt.khk.ee/programmeerimis_alused/project_idle/">Link to the game on a cpanel server (warning: may be down)</a>
+    </div>
+    <div id='prj2'>
+      <a href="https://github.com/PastelBun/archive/tree/main/veebiarendus/projekt">
+        <h3>Hobby webpage</h3>
+        <img src="img/hobby_page.png" alt="screenshot of a hobby webpage">
+      </a>
+      <a href="https://carlosvs23.ikt.khk.ee/veebiarendus/project_sam/">Link to the site on a cpanel server (warning: may be down)</a>
+    </div>
+    <div id='prj3'>
+      <a href="https://github.com/PastelBun/archive/tree/main/veebiarendus/mitmeleheline_veebileht">
+        <h3>Hotel webpage</h3>
+        <img src="img/hotel_page.png" alt="screenshot of a hotel webpage">
+      </a>
+      <a href="https://carlosvs23.ikt.khk.ee/veebiarendus/mitmeleheline_veebileht_Soosaar/">Link to the site on a cpanel server (warning: may be down)</a>
+    </div>
+  </div>
+    <div class='grid-container' id="qualifications">
       <div id='education'>
         <h2>Where I've studied</h2>
         <h3><a href="https://voco.ee/">Tartu Vocational College</a></h3>
@@ -107,8 +133,7 @@
         <p>Robootika</p>
       </div>
     </div>
-          <div class=horline></div>
-    <div class="grid-container">
+   <div class="grid-container">
       <div id="e-courses">
         <h2>E-courses I've passed</h2>
         <h3>Codecademy</h3>
@@ -181,34 +206,9 @@
           <img src="img/MySQL.png" alt="MySQL logo">
         </div>
       </div>
-      <div class=horline></div>
    <!-- </div>-->
   
-    <!--choose and add past projects-->
-    <div id="past_prj" class="grid-container">
-	    <div id='prj1'>
-		    <a href="https://github.com/PastelBun/Project_Sam">
-              <h3>Clicker Game</h3>
-              <img src="img/game_page.png" alt="screenshot of a clicker game">
-            </a>
-          <a href="https://carlosvs23.ikt.khk.ee/programmeerimis_alused/project_idle/">Link to the game on a cpanel server (warning: may be down)</a>
-	    </div>
-	    <div id='prj2'>
-	        <h2>Some of my past projects!</h2>
-          <a href="https://github.com/PastelBun/archive/tree/main/veebiarendus/projekt">
-		    <h3>Hobby webpage</h3>
-            <img src="img/hobby_page.png" alt="screenshot of a hobby webpage">
-          </a>
-          <a href="https://carlosvs23.ikt.khk.ee/veebiarendus/project_sam/">Link to the site on a cpanel server (warning: may be down)</a>
-	    </div>
-	    <div id='prj3'>
-          <a href="https://github.com/PastelBun/archive/tree/main/veebiarendus/mitmeleheline_veebileht">
-		    <h3>Hotel webpage</h3>
-            <img src="img/hotel_page.png" alt="screenshot of a hotel webpage">
-          </a>
-          <a href="https://carlosvs23.ikt.khk.ee/veebiarendus/mitmeleheline_veebileht_Soosaar/">Link to the site on a cpanel server (warning: may be down)</a>
-        </div>
-    </div>
+
   <div class="grid-container">
       <div id='hobbies'>
         <h2>My Hobbies:</h2>
@@ -219,16 +219,13 @@
       <!--maybe more info-->
       <div id='self_intro'>
         <h2>Who am I as a person?</h2>
-        <p>I try to be kind and understanding and I think I do a decent job at it.
-          I'm intrigued by what intrigues others.
-          Not as much about the thing itself, but their interest in it.
-          As all humans I'm explained by paradoxes:
+        <p>I'm kind and empathic. I like talking to people, however I don't like large groups.
+          I care about what people have to say. I like learning what someone is like as a person, even though I may not like the knowledge I gain.
         </p>
-        <ul>
-          <li>I love people, but they exhaust me.</li>
-          <li>I'm smart, but I'm also dumb.</li>
-          <li>I'm empathic and it makes me lack empathy.</li>
-        </ul>
+        <br/>
+          <p>I'm intelligent and inquisitive. However I struggle with focus. I like learning about most anything, but I find sociology and physics to be more intruiqing than other subjects.
+          It's not a professional interest, but rather that of a hobbyist. Programming is also interesting, but more so a mean to an end.
+            It's how we tell a bunch of compiled metals and minerals how to do complex things we can't. An absurd concept in my opinion, but one that is real.</p>
       </div>
   </div>
     <footer>
@@ -245,5 +242,6 @@
     <button onclick="topFunction()" id='to_top'><i class="fa-solid fa-up"></i>Back to the top</button>
     <script src="script.js"></script>
     <script src="hamburger.js"></script>
+    <script src="auto-sizing.js"></script>
 </body>
 </html>
